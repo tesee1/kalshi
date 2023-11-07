@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: var(--text-color);
+}
+
+.header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+
+.logo {
+    path {
+        fill: var(--text-color);
+    }
+}
+
+.nav {
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    font-size: 14px;
+    font-weight: 500;
+
+    @media (max-width: 905px){
+         display: none; 
+    }
+}
+
+
+.form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 905px){
+         display: none; 
+    }
+
+    svg {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        fill: rgba(0, 0, 0, 0.45);
+    }
+
+    span {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    input {
+        padding-left: 52px; 
+        border-radius: 4px;
+        min-height: 42px;
+        outline: none;
+        font-size: 16px;
+        color: var(--text-color);
+        border: none;
+        background-color: #eeeeee;
+        border: 1px solid transparent;
+        transition: all 0.3s ease 0s;
+
+        &:focus {
+            border: 1px solid var(--text-color);
+        }
+    }
+
+   
+}
+
+.btns {
+    margin-left: auto;
+    a {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login {
+    color: var(--text-color);
+    background: none;
+    border: none;
+}
+
+.signup {
+    color: var(--primary);
+    background: none;
+    border: none;
+}
