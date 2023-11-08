@@ -32,7 +32,7 @@ const LoginBlock = () => {
     }, [password, email, emailErrorInvisible, passwordErrorInvisible])
 
 
-    const submitHandler = (e) => {
+    const submitHandler = (e: any) => {
         e.preventDefault();
         setEmailError(emailErrorInvisible);
         setPasswordError(passwordErrorInvisible);

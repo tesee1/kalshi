@@ -41,13 +41,13 @@ const Footer = () => {
               </div>
               <div className={styles.bottom}>
                   <small>© 2023 Kalshi Inc.</small>
-                  <p>Information provided based on historical data of the Exchange. Contracts traded is defined as the dollar volume of the Exchange since inception. As of May 15, 2023, the historical amount of contracts traded was above 120,000,000. Open interest is defined to be the number of outstanding contracts that are trading on an exchange at any moment of time. On May 15, 2023, the open interest on the Exchange was above 4,000,000. <br /> <br />
+<p>Information provided based on&nbsp;historical data of&nbsp;the Exchange. Contracts traded is&nbsp;defined as&nbsp;the dollar volume of&nbsp;the Exchange since inception. As&nbsp;of&nbsp;May&nbsp;15, 2023, the historical amount of&nbsp;contracts traded was above 120,000,000. Open interest is&nbsp;defined to&nbsp;be&nbsp;the number of&nbsp;outstanding contracts that are trading on&nbsp;an&nbsp;exchange at&nbsp;any moment of&nbsp;time. On&nbsp;May&nbsp;15, 2023, the open interest on&nbsp;the Exchange was above 4,000,000. <br /> <br />
 
-While Kalshi strives to provide accurate and timely information, there may be inadvertent inaccuracies, errors and omissions, for which we apologize and expressly disclaim any liability. We reserve the right to make changes and corrections at any time, without notice. The content is provided on an "AS IS," "AS AVAILABLE" Basis. Any information denoting past or historical performance is not indicative of future performance and no reliance shall be placed on such information. <br /> <br />
+While Kalshi strives to&nbsp;provide accurate and timely information, there may be&nbsp;inadvertent inaccuracies, errors and omissions, for which we&nbsp;apologize and expressly disclaim any liability. We&nbsp;reserve the right to&nbsp;make changes and corrections at&nbsp;any time, without notice. The content is&nbsp;provided on&nbsp;an&nbsp;&laquo;AS&nbsp;IS,&raquo; &laquo;AS&nbsp;AVAILABLE&raquo; Basis. Any information denoting past or&nbsp;historical performance is&nbsp;not indicative of&nbsp;future performance and no&nbsp;reliance shall be&nbsp;placed on&nbsp;such information. <br /> <br />
 
-Trading on Kalshi involves risk and may not be appropriate for all. Members risk losing their cost to enter any transaction, including fees. You should carefully consider whether trading on Kalshi is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. Past performance is not necessarily indicative of future results. <br /> <br />
+Trading on&nbsp;Kalshi involves risk and may not be&nbsp;appropriate for all. Members risk losing their cost to&nbsp;enter any transaction, including fees. You should carefully consider whether trading on&nbsp;Kalshi is&nbsp;appropriate for you in&nbsp;light of&nbsp;your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at&nbsp;your own risk. Past performance is&nbsp;not necessarily indicative of&nbsp;future results. <br /> <br />
 
-Kalshi is subject to U.S. regulatory oversight by the CFTC.</p>
+Kalshi is&nbsp;subject to&nbsp;U.S. regulatory oversight by&nbsp;the CFTC.</p>
               </div>
           </div>
     </footer>
